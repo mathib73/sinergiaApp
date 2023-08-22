@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sinergiaApp/static/css/main.e2aa582c.css",
+    "main.js": "/sinergiaApp/static/js/main.a81c656e.js",
+    "static/js/787.d12c45e4.chunk.js": "/sinergiaApp/static/js/787.d12c45e4.chunk.js",
+    "static/media/landing.jpeg": "/sinergiaApp/static/media/landing.f92bd7c09b9b9c3c9c6e.jpeg",
+    "index.html": "/sinergiaApp/index.html",
+    "main.e2aa582c.css.map": "/sinergiaApp/static/css/main.e2aa582c.css.map",
+    "main.a81c656e.js.map": "/sinergiaApp/static/js/main.a81c656e.js.map",
+    "787.d12c45e4.chunk.js.map": "/sinergiaApp/static/js/787.d12c45e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2aa582c.css",
+    "static/js/main.a81c656e.js"
+  ]
+}
