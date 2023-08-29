@@ -1,4 +1,4 @@
-import landing from './landing.jpeg';
+import landing from './landing.png';
 import './App.css';
 
 function App() {

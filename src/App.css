@@ -15,12 +15,12 @@
 }
 
 .container {
-  background-image: linear-gradient(#61c19c, #66c49f, #4eb691);
+  background-color: #71b18c;
   display: flex;
   flex-wrap: wrap;
 }
 .row {
-  background-image: linear-gradient(#61c19c, #66c49f, #4eb691);
+  background-color: #71b18c;
   display: flex;
   flex-direction: row;
   align-items: center;
