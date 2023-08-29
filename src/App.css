@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  overflow: hidden;
+  background-image: linear-gradient(#71b18c, #71b18c, #71b08b, #6ba885, #66a07e);
 }
 
 .App-link {
@@ -15,21 +15,29 @@
 }
 
 .container {
-  background-color: #71b18c;
   display: flex;
   flex-wrap: wrap;
 }
 .row {
-  background-color: #71b18c;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+
+  background-image: url("./landing.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .responsive {
-  height: auto;
+  height: 100%;
 }
 .full-width {
   height: 100%;
   flex: 1;
+}
+.landing {
+  height: auto;
+  width: 100%;
 }
