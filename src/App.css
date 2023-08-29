@@ -41,3 +41,9 @@
   height: auto;
   width: 100%;
 }
+.contact {
+  width: 216px;
+  height: 39px;
+  position: fixed;
+  top: 28px;
+}
