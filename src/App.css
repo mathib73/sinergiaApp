@@ -16,19 +16,20 @@
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-}
-.row {
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  width: 100%;
 
   background-image: url("./landing.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .responsive {
   height: 100%;
@@ -42,8 +43,21 @@
   width: 100%;
 }
 .contact {
-  width: 216px;
-  height: 39px;
+  width: 323px;
+  height: 69px;
+  cursor: pointer;
   position: fixed;
-  top: 28px;
+  top: 36px;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .container {
+      background-size: cover;
+    }
+    .contact {
+      height: 114px;
+    }
 }
